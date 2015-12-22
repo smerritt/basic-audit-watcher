@@ -6,11 +6,10 @@ To use:
 
 2. In the object auditor configuration (probably `/etc/swift/object-auditor.conf` or `/etc/swift/object-server.conf`), have the following:
 
-```
-[object-auditor]
-watchers = basic
-
-```
+    ```
+    [object-auditor]
+    watchers = basic
+    ```
 
 3. Look for files in /tmp ending in ".auditlog".
 
